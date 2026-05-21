@@ -277,7 +277,7 @@ function copyText(id) {
 // --- ALL INITIALIZATION LOGIC IN ONE PLACE ---
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Setup BPI Traits
-    const traits = ["hypochondriasis", "depression", "anxiety", "interpersonal", "alienation", "impulse", "persecutory", "thinking", "introversion", "selfDepreciation", "deviation", "denial"];
+    const traits = ["Hyp", "Dep", "Anx", "IPs", "Aln", "ImE", "PId", "ThD", "SoI", "SDp", "Dev", "Den"];
     const container = document.getElementById('bpiContainer');
     
     if (container && container.innerHTML === "") { // Prevent double-loading
